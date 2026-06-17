@@ -7,7 +7,7 @@ def home():
     return jsonify({
         "status": "success",
         "message": "Welcome to CloudPipelineX Production API!",
-        "version": "1.0.0"
+        "version": "2.0.0"
     })
 
 if __name__ == '__main__':
